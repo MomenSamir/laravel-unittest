@@ -24,3 +24,8 @@ Route::get('/beta', function () {
 Route::get('/alpha', function () {
     return view('alpha');
 });
+
+
+Route::get('/products', function () {
+    return view('welcome');
+});
